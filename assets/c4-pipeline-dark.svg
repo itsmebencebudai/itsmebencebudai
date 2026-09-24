@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="150" viewBox="0 0 1200 150" role="img" aria-labelledby="t d">
+<title id="t">Developer build pipeline</title>
+<desc id="d">Animated flow from design to build, validate, deploy, observe, automate and improve.</desc>
+<rect width="1200" height="150" rx="18" fill="#0c111b" stroke="#2a3346"/>
+<g font-family="Cascadia Mono,Consolas,monospace" font-size="13" text-anchor="middle">
+  <line x1="105" y1="72" x2="1095" y2="72" stroke="#2a3346" stroke-width="3"/>
+  <g fill="#111827" stroke="#4ea1ff">
+    <circle cx="105" cy="72" r="22"/><circle cx="270" cy="72" r="22"/><circle cx="435" cy="72" r="22"/>
+    <circle cx="600" cy="72" r="22"/><circle cx="765" cy="72" r="22"/><circle cx="930" cy="72" r="22"/><circle cx="1095" cy="72" r="22"/>
+  </g>
+  <g fill="#dce5f3">
+    <text x="105" y="118">DESIGN</text><text x="270" y="118">BUILD</text><text x="435" y="118">VALIDATE</text>
+    <text x="600" y="118">DEPLOY</text><text x="765" y="118">OBSERVE</text><text x="930" y="118">AUTOMATE</text><text x="1095" y="118">IMPROVE</text>
+  </g>
+  <g fill="#8ea0b8" font-size="12">
+    <text x="105" y="77">01</text><text x="270" y="77">02</text><text x="435" y="77">03</text><text x="600" y="77">04</text>
+    <text x="765" y="77">05</text><text x="930" y="77">06</text><text x="1095" y="77">07</text>
+  </g>
+</g>
+<circle r="7" cy="72" fill="#8ce6aa">
+  <animate attributeName="cx" values="105;270;435;600;765;930;1095;105" dur="7s" repeatCount="indefinite"/>
+  <animate attributeName="opacity" values="1;.55;1" dur=".8s" repeatCount="indefinite"/>
+</circle>
+</svg>
