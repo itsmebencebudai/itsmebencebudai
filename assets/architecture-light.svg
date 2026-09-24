@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="470" viewBox="0 0 1200 470" role="img" aria-labelledby="title desc">
+<title id="title">Application to infrastructure architecture</title>
+<desc id="desc">A simplified architecture showing application, API, database, automation, deployment, and infrastructure layers.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f8fbff"/><stop offset="1" stop-color="#f6f3ff"/></linearGradient>
+  <marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#8290a7"/></marker>
+</defs>
+<rect width="1200" height="470" rx="24" fill="url(#bg)"/>
+<g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">
+  <text x="52" y="54" font-size="14" fill="#69768b" letter-spacing="2">SYSTEM MAP // FROM API TO INFRASTRUCTURE</text>
+
+  <g fill="#ffffff" stroke="#c9d5e6" stroke-width="1.5">
+    <rect x="75" y="105" width="220" height="82" rx="14"/>
+    <rect x="375" y="105" width="220" height="82" rx="14"/>
+    <rect x="675" y="105" width="220" height="82" rx="14"/>
+    <rect x="955" y="105" width="170" height="82" rx="14"/>
+    <rect x="195" y="285" width="210" height="82" rx="14"/>
+    <rect x="495" y="285" width="210" height="82" rx="14"/>
+    <rect x="795" y="285" width="210" height="82" rx="14"/>
+  </g>
+
+  <g font-size="15" font-weight="700">
+    <text x="112" y="139" fill="#1d2a40">WEB / CLIENT</text>
+    <text x="413" y="139" fill="#1d2a40">ASP.NET CORE</text>
+    <text x="728" y="139" fill="#1d2a40">SQL SERVER</text>
+    <text x="989" y="139" fill="#1d2a40">OBSERVE</text>
+    <text x="238" y="319" fill="#1d2a40">AUTOMATION</text>
+    <text x="542" y="319" fill="#1d2a40">DEPLOYMENT</text>
+    <text x="839" y="319" fill="#1d2a40">NETWORK</text>
+  </g>
+
+  <g font-size="13" fill="#69768b">
+    <text x="112" y="164">HTML · JS · UI</text>
+    <text x="413" y="164">REST · EF Core</text>
+    <text x="728" y="164">data · queries</text>
+    <text x="989" y="164">logs · health</text>
+    <text x="238" y="344">PowerShell · CI</text>
+    <text x="542" y="344">IIS · Docker</text>
+    <text x="839" y="344">Tailscale · LAN</text>
+  </g>
+
+  <g stroke="#8290a7" stroke-width="2" fill="none" marker-end="url(#arrow)">
+    <path d="M295 146H365"/>
+    <path d="M595 146H665"/>
+    <path d="M895 146H945"/>
+    <path d="M485 187V236H300V275"/>
+    <path d="M485 187V275"/>
+    <path d="M485 236H900V275"/>
+  </g>
+
+  <rect x="194" y="404" width="812" height="30" rx="15" fill="#eef3fb" stroke="#c9d5e6"/>
+  <text x="333" y="424" font-size="13" fill="#69768b">design → build → deploy → observe → automate → improve</text>
+</g>
+</svg>
