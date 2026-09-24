@@ -36,36 +36,28 @@
 <table>
 <tr>
 <td width="58%" valign="top">
-
-### About
-
-I'm **Budai Bence**, a software developer based in **Budapest, Hungary**.
-
-I build primarily with **C# / .NET and ASP.NET Core**, but I care just as much about everything around the application: automation, infrastructure, deployment, networking, observability, and developer tooling.
-
-I maintain a homelab for **self-hosting, local AI, coding agents, MCP integrations, and infrastructure automation**.
-
-Currently studying at **Óbuda University — John von Neumann Faculty of Informatics**.
-
+<h3>About</h3>
+<p>I'm <strong>Budai Bence</strong>, a software developer based in <strong>Budapest, Hungary</strong>.</p>
+<p>I build primarily with <strong>C# / .NET and ASP.NET Core</strong>, but I care just as much about everything around the application: automation, infrastructure, deployment, networking, observability, and developer tooling.</p>
+<p>I maintain a homelab for <strong>self-hosting, local AI, coding agents, MCP integrations, and infrastructure automation</strong>.</p>
+<p>Currently studying at <strong>Óbuda University — John von Neumann Faculty of Informatics</strong>.</p>
 </td>
 <td width="42%" valign="top">
-
-### Current focus
-
-`RUNNING` ASP.NET Core architecture  
-`RUNNING` Backend APIs  
-`RUNNING` Developer automation  
-`LAB` Local AI + MCP  
-`NEXT` Open-source tooling
-
+<h3>Current focus</h3>
+<p>
+<code>RUNNING</code> ASP.NET Core architecture<br>
+<code>RUNNING</code> Backend APIs<br>
+<code>RUNNING</code> Developer automation<br>
+<code>LAB</code> Local AI + MCP<br>
+<code>NEXT</code> Open-source tooling
+</p>
 <br>
-
-**Default environment**
-
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/windows11/windows11-original.svg" width="18" alt="Windows"> Windows  
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/powershell/powershell-original.svg" width="18" alt="PowerShell"> PowerShell  
+<strong>Default environment</strong>
+<p>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/windows11/windows11-original.svg" width="18" alt="Windows"> Windows<br>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/powershell/powershell-original.svg" width="18" alt="PowerShell"> PowerShell<br>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/visualstudio/visualstudio-original.svg" width="18" alt="Visual Studio"> Visual Studio / VS Code
-
+</p>
 </td>
 </tr>
 </table>
@@ -99,45 +91,33 @@ Currently studying at **Óbuda University — John von Neumann Faculty of Inform
 <table>
 <tr>
 <td width="25%" valign="top">
-
-#### APPLICATION
-
-`C#`  
-`.NET`  
-`ASP.NET Core`  
-`REST APIs`  
-`Entity Framework Core`
-
+<h4>APPLICATION</h4>
+<code>C#</code><br>
+<code>.NET</code><br>
+<code>ASP.NET Core</code><br>
+<code>REST APIs</code><br>
+<code>Entity Framework Core</code>
 </td>
 <td width="25%" valign="top">
-
-#### DATA
-
-`SQL Server`  
-`relational data`  
-`migrations`  
-`queries`
-
+<h4>DATA</h4>
+<code>SQL Server</code><br>
+<code>relational data</code><br>
+<code>migrations</code><br>
+<code>queries</code>
 </td>
 <td width="25%" valign="top">
-
-#### SYSTEMS
-
-`Windows Server`  
-`IIS`  
-`Docker`  
-`Tailscale`
-
+<h4>SYSTEMS</h4>
+<code>Windows Server</code><br>
+<code>IIS</code><br>
+<code>Docker</code><br>
+<code>Tailscale</code>
 </td>
 <td width="25%" valign="top">
-
-#### AUTOMATION
-
-`PowerShell`  
-`GitHub Actions`  
-`deployment`  
-`repeatable tooling`
-
+<h4>AUTOMATION</h4>
+<code>PowerShell</code><br>
+<code>GitHub Actions</code><br>
+<code>deployment</code><br>
+<code>repeatable tooling</code>
 </td>
 </tr>
 </table>
@@ -149,33 +129,25 @@ Currently studying at **Óbuda University — John von Neumann Faculty of Inform
 <table>
 <tr>
 <td width="50%" valign="top">
-
-### <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/powershell/powershell-original.svg" width="24" alt="PowerShell"> CopyLast
-
-A PowerShell utility that copies the previous command together with its visible output directly to the clipboard.
-
-Built for terminal-heavy development, troubleshooting, documentation, and AI-assisted workflows.
-
-![PowerShell](https://img.shields.io/badge/PowerShell-Developer_Tool-5391FE?logo=powershell&logoColor=white)
-![Stable](https://img.shields.io/badge/status-stable-2ea043)
-![MIT](https://img.shields.io/badge/license-MIT-6e7681)
-
-**[Open repository →](https://github.com/itsmebencebudai/clast)**
-
+<h3><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/powershell/powershell-original.svg" width="24" alt="PowerShell"> CopyLast</h3>
+<p>A PowerShell utility that copies the previous command together with its visible output directly to the clipboard.</p>
+<p>Built for terminal-heavy development, troubleshooting, documentation, and AI-assisted workflows.</p>
+<p>
+<img alt="PowerShell Developer Tool" src="https://img.shields.io/badge/PowerShell-Developer_Tool-5391FE?logo=powershell&logoColor=white">
+<img alt="Stable" src="https://img.shields.io/badge/status-stable-2ea043">
+<img alt="MIT" src="https://img.shields.io/badge/license-MIT-6e7681">
+</p>
+<p><a href="https://github.com/itsmebencebudai/clast"><strong>Open repository →</strong></a></p>
 </td>
 <td width="50%" valign="top">
-
-### <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" width="24" alt="Web"> Developer Portfolio
-
-My longer-form developer site with selected projects, technologies, experiments, and background.
-
-Built with HTML, CSS, and JavaScript and deployed through GitHub Pages.
-
-![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-online-2ea043?logo=github)
-![JavaScript](https://img.shields.io/badge/HTML_CSS-JavaScript-f7df1e?logo=javascript&logoColor=black)
-
-**[Open portfolio →](https://itsmebencebudai.github.io/)**
-
+<h3><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" width="24" alt="Web"> Developer Portfolio</h3>
+<p>My longer-form developer site with selected projects, technologies, experiments, and background.</p>
+<p>Built with HTML, CSS, and JavaScript and deployed through GitHub Pages.</p>
+<p>
+<img alt="GitHub Pages online" src="https://img.shields.io/badge/GitHub_Pages-online-2ea043?logo=github">
+<img alt="HTML CSS JavaScript" src="https://img.shields.io/badge/HTML_CSS-JavaScript-f7df1e?logo=javascript&logoColor=black">
+</p>
+<p><a href="https://itsmebencebudai.github.io/"><strong>Open portfolio →</strong></a></p>
 </td>
 </tr>
 </table>
@@ -189,21 +161,17 @@ Built with HTML, CSS, and JavaScript and deployed through GitHub Pages.
 <table>
 <tr>
 <td width="38%" valign="top">
-
-### Workstation
-
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/windows11/windows11-original.svg" width="20" alt=""> Windows-first development  
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/powershell/powershell-original.svg" width="20" alt=""> PowerShell automation  
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" width="20" alt=""> Containers + services  
+<h3>Workstation</h3>
+<p>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/windows11/windows11-original.svg" width="20" alt=""> Windows-first development<br>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/powershell/powershell-original.svg" width="20" alt=""> PowerShell automation<br>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" width="20" alt=""> Containers + services<br>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" width="20" alt=""> Git-driven workflows
-
+</p>
 </td>
 <td width="62%" valign="top">
-
-### Lab map
-
-```text
-Dev:\Lab
+<h3>Lab map</h3>
+<pre><code>Dev:\Lab
 ├─ Infrastructure
 │  ├─ Windows Server
 │  ├─ Docker
@@ -215,9 +183,7 @@ Dev:\Lab
 │  ├─ Local LLMs
 │  ├─ Coding Agents
 │  └─ MCP
-└─ Self Hosting
-```
-
+└─ Self Hosting</code></pre>
 </td>
 </tr>
 </table>
