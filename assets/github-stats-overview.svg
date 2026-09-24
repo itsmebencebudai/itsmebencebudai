@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="495" height="195" viewBox="0 0 495 195" role="img" aria-labelledby="t d">
+<title id="t">GitHub stats setup pending</title><desc id="d">Add the ACCESS_TOKEN repository secret to generate live GitHub statistics.</desc>
+<style>
+  .bg{fill:#fff;stroke:#d0d7de}.title{fill:#24292f}.muted{fill:#57606a}
+  @media (prefers-color-scheme:dark){.bg{fill:#0d1117;stroke:#30363d}.title{fill:#c9d1d9}.muted{fill:#8b949e}}
+</style>
+<rect class="bg" x=".5" y=".5" width="494" height="194" rx="6"/>
+<g font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif">
+<text class="title" x="25" y="47" font-size="18" font-weight="600">GitHub Stats</text>
+<text class="muted" x="25" y="82" font-size="14">github-stats integration is ready.</text>
+<text class="muted" x="25" y="108" font-size="14">Add the ACCESS_TOKEN repository secret,</text>
+<text class="muted" x="25" y="134" font-size="14">then run “Generate GitHub stats”.</text>
+</g></svg>
