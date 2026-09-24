@@ -19,10 +19,18 @@ if ($env:GITHUB_TOKEN) {
 $user = Invoke-RestMethod -Uri "https://api.github.com/users/$username" -Headers $headers
 $repos = @(Invoke-RestMethod -Uri "https://api.github.com/users/$username/repos?per_page=100&type=owner&sort=updated" -Headers $headers)
 
-$totalStars = ($repos | Measure-Object -Property stargazers_count -Sum).Sum
-$totalForks = ($repos | Measure-Object -Property forks_count -Sum).Sum
-if ($null -eq $totalStars) { $totalStars = 0 }
-if ($null -eq $totalForks) { $totalForks = 0 }
+$totalStars = 0
+$totalForks = 0
+
+foreach ($repo in $repos) {
+    if ($null -ne $repo.stargazers_count) {
+        $totalStars += [int]$repo.stargazers_count
+    }
+
+    if ($null -ne $repo.forks_count) {
+        $totalForks += [int]$repo.forks_count
+    }
+}
 
 function New-StatsSvg {
     param(
