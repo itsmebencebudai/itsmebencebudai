@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="440" viewBox="0 0 1200 440" role="img" aria-labelledby="t d">
+<title id="t">bencefetch terminal systems dashboard</title><desc id="d">Terminal-style developer identity for Budai Bence.</desc>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f8fbff"/><stop offset="1" stop-color="#f5f2ff"/></linearGradient><linearGradient id="bb" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#356fe3"/><stop offset="1" stop-color="#7650c7"/></linearGradient></defs>
+<rect width="1200" height="440" rx="26" fill="url(#bg)"/><rect x="30" y="28" width="1140" height="384" rx="18" fill="#ffffff" stroke="#cad5e6"/>
+<circle cx="58" cy="54" r="6" fill="#ff5f56"/><circle cx="78" cy="54" r="6" fill="#ffbd2e"/><circle cx="98" cy="54" r="6" fill="#27c93f"/>
+<text x="532" y="59" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#65738a">bencefetch</text>
+<g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">
+<g fill="url(#bb)" font-size="27" font-weight="700"><text x="70" y="132">██████╗ ██████╗</text><text x="70" y="168">██╔══██╗██╔══██╗</text><text x="70" y="204">██████╔╝██████╔╝</text><text x="70" y="240">██╔══██╗██╔══██╗</text><text x="70" y="276">██████╔╝██████╔╝</text><text x="70" y="312">╚═════╝ ╚═════╝</text></g>
+<text x="520" y="105" font-size="19" font-weight="700" fill="#182235">bence@github</text><text x="520" y="126" font-size="13" fill="#9aa8bb">────────────────────────────────────────────────────</text>
+<text x="520" y="157" font-size="14" fill="#69768b">role</text><text x="655" y="157" font-size="14" fill="#27364d">Software Developer</text>
+<text x="520" y="185" font-size="14" fill="#69768b">primary</text><text x="655" y="185" font-size="14" fill="#356fe3">C# · .NET · ASP.NET Core</text>
+<text x="520" y="213" font-size="14" fill="#69768b">data</text><text x="655" y="213" font-size="14" fill="#a44962">SQL Server · EF Core</text>
+<text x="520" y="241" font-size="14" fill="#69768b">shell</text><text x="655" y="241" font-size="14" fill="#7650c7">PowerShell</text>
+<text x="520" y="269" font-size="14" fill="#69768b">infra</text><text x="655" y="269" font-size="14" fill="#27718d">IIS · Docker · Tailscale</text>
+<text x="520" y="297" font-size="14" fill="#69768b">lab</text><text x="655" y="297" font-size="14" fill="#198754">Self-hosting · Local AI · MCP</text>
+<text x="520" y="338" font-size="14" fill="#69768b">status</text><circle cx="659" cy="333" r="5" fill="#22c55e"><animate attributeName="opacity" values="1;.25;1" dur="1.2s" repeatCount="indefinite"/></circle><text x="674" y="338" font-size="14" fill="#198754">ONLINE / BUILDING</text>
+<text x="70" y="372" font-size="13" fill="#71809a">Budapest, Hungary  ·  Óbuda University / NIK  ·  build → automate → improve</text>
+</g></svg>
