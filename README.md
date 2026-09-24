@@ -15,19 +15,29 @@ I build backend software, automation, infrastructure tooling, and the systems ar
 ---
 
 ```text
-╭─ Dev:\ ────────────────────────────────────────────────────────────────╮
-│                                                                       │
-│  > whoami                                                             │
-│  Budai Bence                                                          │
-│                                                                       │
-│  > focus                                                              │
-│  backend systems · automation · infrastructure · developer tooling    │
-│                                                                       │
-│  > status                                                             │
-│  building · testing · shipping · automating                           │
-│                                                                       │
-│  > _                                                                  │
-╰───────────────────────────────────────────────────────────────────────╯
+ ____  _____ _   _  ____ _____
+| __ )| ____| \ | |/ ___| ____|
+|  _ \|  _| |  \| | |   |  _|
+| |_) | |___| |\  | |___| |___
+|____/|_____|_| \_|\____|_____|
+
+              B U D A I
+```
+
+```text
+                 ______________________________________
+                /                                      /|
+               /  Windows PowerShell                  / |
+              /______________________________________/  |
+              | PS C:\Dev> .\build.ps1              |  |
+              |                                      |  |
+              | [OK] backend                         |  |
+              | [OK] automation                      |  |
+              | [OK] infrastructure                  |  |
+              | [>>] improve_                        | /
+              |______________________________________|/
+                     / /                    \ \
+                    /_/______________________\_\
 ```
 
 ## `Dev:\ > about`
@@ -74,7 +84,8 @@ stack
     ├── self-hosting
     ├── local LLMs
     ├── coding agents
-    └── MCP integrations
+    ├── MCP integrations
+    └── ASCII / ANSI experiments
 ```
 
 ## `Dev:\ > Get-CurrentFocus`
@@ -97,7 +108,7 @@ stack
 ## `Dev:\ > Get-Workflow`
 
 ```text
-understand → design → build → validate → automate → document → improve
+understand -> design -> build -> validate -> automate -> document -> improve
 ```
 
 I prefer small, understandable systems over unnecessary complexity, and repeatable workflows over one-off fixes.
@@ -105,6 +116,10 @@ I prefer small, understandable systems over unnecessary complexity, and repeatab
 ---
 
 ```text
-Dev:\ > exit
-Process finished with code 0.
++--------------------------------------------------------------+
+| PS C:\Dev> exit                                             |
+| Process finished with code 0.                                |
++--------------------------------------------------------------+
 ```
+
+<sub>Text-mode visual direction inspired by [Durdraw](https://github.com/durdraw/durdraw), an ASCII / Unicode / ANSI art editor for modern terminals.</sub>
