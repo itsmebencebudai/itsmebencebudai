@@ -1,37 +1,78 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
-<title id="title">Budai Bence PowerShell workstation</title>
-<desc id="desc">A compact Windows PowerShell inspired developer profile banner.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+<title id="title">Budai Bence developer workstation</title>
+<desc id="desc">Animated Windows developer workstation banner for Budai Bence.</desc>
 <defs>
   <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-    <stop offset="0" stop-color="#0b1020"/>
-    <stop offset="1" stop-color="#171225"/>
+    <stop offset="0" stop-color="#08111f"/>
+    <stop offset=".55" stop-color="#0c111b"/>
+    <stop offset="1" stop-color="#181126"/>
   </linearGradient>
   <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
     <stop stop-color="#4ea1ff"/>
     <stop offset="1" stop-color="#a970ff"/>
   </linearGradient>
+  <linearGradient id="scan" x1="0" y1="0" x2="1" y2="0">
+    <stop stop-color="#4ea1ff" stop-opacity="0"/>
+    <stop offset=".5" stop-color="#4ea1ff" stop-opacity=".45"/>
+    <stop offset="1" stop-color="#a970ff" stop-opacity="0"/>
+  </linearGradient>
+  <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="5" result="blur"/>
+    <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
 </defs>
-<rect width="1200" height="320" rx="26" fill="url(#bg)"/>
-<rect x="30" y="28" width="1140" height="264" rx="18" fill="#0c111b" stroke="#2a3346"/>
-<rect x="30" y="28" width="1140" height="42" rx="18" fill="#111827"/>
-<rect x="30" y="52" width="1140" height="18" fill="#111827"/>
-<text x="58" y="55" font-family="Segoe UI,Arial,sans-serif" font-size="13" fill="#b8c2d3">Windows PowerShell</text>
-<text x="1110" y="55" font-family="Segoe UI,Arial,sans-serif" font-size="16" fill="#6f7c90">—  □  ×</text>
-<g font-family="Cascadia Mono,Consolas,ui-monospace,monospace">
-  <text x="70" y="162" font-size="72" font-weight="700" fill="url(#accent)">BB&gt;</text>
-  <text x="70" y="202" font-size="15" fill="#8ea0b8">.NET · PowerShell · Systems</text>
 
-  <text x="430" y="118" font-size="15" fill="#8ea0b8">PS C:\Users\Bence&gt;</text>
-  <text x="625" y="118" font-size="15" fill="#f3f6fb">whoami</text>
+<rect width="1200" height="360" rx="26" fill="url(#bg)"/>
+<circle cx="1030" cy="72" r="105" fill="#4ea1ff" opacity=".05">
+  <animate attributeName="r" values="90;118;90" dur="6s" repeatCount="indefinite"/>
+  <animate attributeName="opacity" values=".03;.08;.03" dur="6s" repeatCount="indefinite"/>
+</circle>
+<circle cx="170" cy="315" r="95" fill="#a970ff" opacity=".05">
+  <animate attributeName="r" values="82;108;82" dur="7s" repeatCount="indefinite"/>
+</circle>
+
+<rect x="28" y="26" width="1144" height="306" rx="18" fill="#0c111b" stroke="#2a3346"/>
+<rect x="28" y="26" width="1144" height="44" rx="18" fill="#111827"/>
+<rect x="28" y="52" width="1144" height="18" fill="#111827"/>
+
+<circle cx="55" cy="48" r="5" fill="#ff5f57"/>
+<circle cx="73" cy="48" r="5" fill="#febc2e"/>
+<circle cx="91" cy="48" r="5" fill="#28c840"/>
+<text x="116" y="53" font-family="Segoe UI,Arial,sans-serif" font-size="13" fill="#b8c2d3">DEV WORKSTATION</text>
+
+<g font-family="Cascadia Mono,Consolas,ui-monospace,monospace">
+  <text x="70" y="164" font-size="74" font-weight="700" fill="url(#accent)">BB&gt;</text>
+  <text x="70" y="205" font-size="15" fill="#8ea0b8">.NET · PowerShell · Systems</text>
+
+  <g transform="translate(70 238)">
+    <circle cx="6" cy="6" r="5" fill="#8ce6aa" filter="url(#glow)">
+      <animate attributeName="opacity" values="1;.35;1" dur="1.7s" repeatCount="indefinite"/>
+    </circle>
+    <text x="20" y="11" font-size="12" fill="#8ce6aa">ONLINE</text>
+  </g>
+
+  <text x="430" y="118" font-size="15" fill="#8ea0b8">Dev:\ &gt;</text>
+  <text x="510" y="118" font-size="15" fill="#f3f6fb">whoami</text>
   <text x="430" y="154" font-size="15" fill="#8db8ff">itsmebencebudai</text>
 
-  <text x="430" y="198" font-size="15" fill="#8ea0b8">PS C:\Users\Bence&gt;</text>
-  <text x="625" y="198" font-size="15" fill="#f3f6fb">Get-Developer</text>
-  <text x="430" y="234" font-size="15" fill="#dce5f3">Build useful things. Automate the repeatable parts.</text>
+  <text x="430" y="204" font-size="15" fill="#8ea0b8">Dev:\ &gt;</text>
+  <text x="510" y="204" font-size="15" fill="#f3f6fb">Get-Developer</text>
+  <text x="430" y="240" font-size="15" fill="#dce5f3">C# / .NET · automation · infrastructure · tooling</text>
 
-  <text x="430" y="268" font-size="15" fill="#8ea0b8">PS C:\Users\Bence&gt;</text>
-  <rect x="625" y="254" width="10" height="18" rx="1.5" fill="#dce5f3">
-    <animate attributeName="opacity" values="1;.15;1" dur="1.1s" repeatCount="indefinite"/>
+  <text x="430" y="290" font-size="15" fill="#8ea0b8">Dev:\ &gt;</text>
+  <rect x="510" y="276" width="10" height="18" rx="1.5" fill="#dce5f3">
+    <animate attributeName="opacity" values="1;.12;1" dur="1.05s" repeatCount="indefinite"/>
   </rect>
 </g>
+
+<g transform="translate(875 266)" font-family="Cascadia Mono,Consolas,monospace" font-size="11">
+  <g><circle cx="5" cy="5" r="4" fill="#8ce6aa"><animate attributeName="opacity" values="1;.3;1" dur="1.6s" repeatCount="indefinite"/></circle><text x="16" y="9" fill="#8ea0b8">BUILD</text></g>
+  <g transform="translate(82 0)"><circle cx="5" cy="5" r="4" fill="#8db8ff"><animate attributeName="opacity" values=".35;1;.35" dur="2s" repeatCount="indefinite"/></circle><text x="16" y="9" fill="#8ea0b8">AUTOMATE</text></g>
+  <g transform="translate(195 0)"><circle cx="5" cy="5" r="4" fill="#c6a7ff"><animate attributeName="opacity" values="1;.3;1" dur="2.4s" repeatCount="indefinite"/></circle><text x="16" y="9" fill="#8ea0b8">SHIP</text></g>
+</g>
+
+<rect x="52" y="82" width="1096" height="2" fill="url(#scan)" opacity=".8">
+  <animate attributeName="y" values="82;312;82" dur="8s" repeatCount="indefinite"/>
+  <animate attributeName="opacity" values=".1;.55;.1" dur="8s" repeatCount="indefinite"/>
+</rect>
 </svg>
