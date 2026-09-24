@@ -129,21 +129,10 @@ Improve
 
 ---
 
-## `PS C:\Users\Bence> Get-GitHubStats`
-
-<div align="center">
-
-<img src="./assets/github-stats-overview.svg" alt="GitHub overview statistics" height="190">
-<img src="./assets/github-stats-languages.svg" alt="GitHub language statistics" height="190">
-
-<sub>Generated with <a href="https://github.com/jstrieb/github-stats">jstrieb/github-stats</a>.</sub>
-
-</div>
-
-These cards are generated inside this repository by GitHub Actions. The workflow can include statistics from private repositories once the required GitHub token is configured, while the profile itself remains public.
+## `PS C:\Users\Bence> Show-ContributionActivity`
 
 <details>
-<summary><code>PS C:\Users\Bence> Show-ContributionActivity</code></summary>
+<summary><code>Show GitHub contribution activity</code></summary>
 
 <br>
 
