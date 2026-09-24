@@ -1,7 +1,7 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/c2-header-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/c2-header-light.svg">
-  <img alt="bencefetch terminal systems dashboard" src="./assets/c2-header-light.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/c3-powershell-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/c3-powershell-light.svg">
+  <img alt="Budai Bence — Windows PowerShell developer profile" src="./assets/c3-powershell-light.svg" width="100%">
 </picture>
 
 <div align="center">
@@ -14,148 +14,136 @@
 
 ---
 
-## `$ systemctl status bence-stack`
+## `PS C:\Users\Bence> Get-Profile`
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/c2-systems-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/c2-systems-light.svg">
-  <img alt="Active developer stack targets" src="./assets/c2-systems-light.svg" width="100%">
-</picture>
+I'm **Budai Bence**, a software developer based in **Budapest, Hungary**.
+
+My main stack is **C# / .NET and ASP.NET Core**, with a strong interest in the systems around the application: **SQL Server, PowerShell automation, Windows Server, IIS, Docker, networking, deployment, and developer tooling**.
+
+I also maintain a homelab where I experiment with **self-hosting, local AI, coding agents, MCP integrations, and infrastructure automation**.
+
+Currently studying at **Óbuda University — John von Neumann Faculty of Informatics**.
 
 ---
 
-## `$ cat /etc/profile.d/about.conf`
+## `PS C:\Users\Bence> Get-Stack | Format-Table`
 
-```ini
-NAME="Budai Bence"
-ROLE="Software Developer"
-LOCATION="Budapest, Hungary"
-FOCUS="Backend Systems / Automation / Infrastructure"
-STUDY="Óbuda University / John von Neumann Faculty of Informatics"
+| Area | Technologies |
+| --- | --- |
+| **Backend** | C# · .NET · ASP.NET Core · REST APIs · Entity Framework Core |
+| **Data** | SQL Server · relational data · migrations · queries |
+| **Automation** | PowerShell · GitHub Actions · repeatable scripting |
+| **Infrastructure** | Windows Server · IIS · Docker · Tailscale |
+| **Web** | HTML · CSS · JavaScript |
+| **Development** | Git · GitHub · Visual Studio · VS Code |
+| **Lab** | self-hosting · local AI · coding agents · MCP · system integration |
+
+---
+
+## `PS C:\Users\Bence\Projects> Get-ChildItem`
+
+### ⚡ [CopyLast](https://github.com/itsmebencebudai/clast)
+
+A small PowerShell utility that copies the previous command together with its visible output directly to the clipboard.
+
+Built for terminal-heavy development, troubleshooting, documentation, and AI-assisted workflows.
+
+```powershell
+Name        : clast
+Type        : Developer Tool
+Runtime     : PowerShell
+Status      : Online
+License     : MIT
 ```
 
-I build software across the entire path from **application code and APIs** to **data, deployment, networking, automation, and developer tooling**.
+### 🌐 [Developer Portfolio](https://itsmebencebudai.github.io/)
 
-The part I enjoy most is connecting those layers so the system is easier to understand, deploy, operate, and improve.
+My longer-form developer portfolio with selected projects, technologies, experiments, and background.
+
+```powershell
+Name        : Portfolio
+Type        : Developer Site
+Deployment  : GitHub Pages
+Status      : Online
+Stack       : HTML / CSS / JavaScript
+```
+
+> A significant amount of my current development work remains private while projects are being built, validated, and prepared for release.
 
 ---
 
-## `$ ls -lah ~/projects`
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/c2-projects-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/c2-projects-light.svg">
-  <img alt="Project status listing" src="./assets/c2-projects-light.svg" width="100%">
-</picture>
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### ⚡ [clast](https://github.com/itsmebencebudai/clast)
-
-PowerShell utility that copies the previous command together with its visible output.
+## `PS C:\Users\Bence> Get-CurrentFocus`
 
 ```text
-state    ONLINE
-type     developer-tool
-runtime  PowerShell
-license  MIT
-```
-
-</td>
-<td width="50%" valign="top">
-
-### 🌐 [portfolio](https://itsmebencebudai.github.io/)
-
-Longer-form developer portfolio with selected projects, technologies, and experiments.
-
-```text
-state    ONLINE
-type     developer-site
-deploy   GitHub Pages
-stack    HTML / CSS / JS
-```
-
-</td>
-</tr>
-</table>
-
----
-
-## `$ ps aux | grep current-focus`
-
-```text
-PID   STATE     PROCESS
-101   RUNNING   aspnet-core-architecture
-102   RUNNING   backend-apis
-103   RUNNING   developer-automation
-104   RUNNING   deployment-systems
-201   LAB       local-ai
-202   LAB       mcp-and-agents
-301   NEXT      open-source-tooling
+State      Focus
+-----      -----
+RUNNING    ASP.NET Core architecture
+RUNNING    Backend APIs
+RUNNING    Developer automation
+RUNNING    Deployment systems
+LAB        Local AI
+LAB        MCP and coding agents
+NEXT       Open-source tooling
 ```
 
 ---
 
-## `$ cat ~/lab/README`
-
-My homelab is where application development meets systems work.
+## `PS C:\Lab> Get-ChildItem -Directory`
 
 ```text
-lab/
-├── self-hosted-services/
-├── windows-and-linux-infrastructure/
-├── docker-and-networking/
-├── local-llm-inference/
-├── coding-agents/
-├── mcp-integrations/
-└── powershell-automation/
+C:\Lab
+├── SelfHostedServices
+├── WindowsInfrastructure
+├── Docker
+├── Networking
+├── LocalAI
+├── CodingAgents
+├── MCP
+└── PowerShellAutomation
 ```
 
-It gives me a place to test ideas beyond the application itself: how software is hosted, connected, automated, monitored, and recovered.
+The lab gives me a practical place to test more than application code: how software is **deployed, connected, automated, observed, and recovered**.
 
 ---
 
-## `$ ./build-process --show`
+## `PS C:\Users\Bence> Get-BuildProcess`
 
 ```text
-design
-  │
-  ▼
-build
-  │
-  ▼
-validate
-  │
-  ▼
-deploy
-  │
-  ▼
-observe
-  │
-  ▼
-automate
-  │
-  ▼
-improve
-  └──────────────► repeat
+Design
+  ↓
+Build
+  ↓
+Validate
+  ↓
+Deploy
+  ↓
+Observe
+  ↓
+Automate
+  ↓
+Improve
+  ↺
 ```
 
-> Build something useful. Make it repeatable. Document it. Improve the workflow around it.
+**Build something useful. Make it repeatable. Document it. Improve the workflow around it.**
 
 ---
 
-## `$ github --snapshot`
+## `PS C:\Users\Bence> Get-GitHubStats`
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/live-stats-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/live-stats-light.svg">
-  <img alt="Live GitHub statistics" src="./assets/live-stats-light.svg" width="100%">
-</picture>
+<div align="center">
+
+<img src="./assets/github-stats-overview.svg" alt="GitHub overview statistics" height="190">
+<img src="./assets/github-stats-languages.svg" alt="GitHub language statistics" height="190">
+
+<sub>Generated with <a href="https://github.com/jstrieb/github-stats">jstrieb/github-stats</a>.</sub>
+
+</div>
+
+These cards are generated inside this repository by GitHub Actions. The workflow can include statistics from private repositories once the required GitHub token is configured, while the profile itself remains public.
 
 <details>
-<summary><code>$ github --contributions --animate</code></summary>
+<summary><code>PS C:\Users\Bence> Show-ContributionActivity</code></summary>
 
 <br>
 
@@ -171,6 +159,6 @@ improve
 
 <div align="center">
 
-`bence@github:~$ build --useful --repeatable` <sub>█</sub>
+`PS C:\Users\Bence> Build-UsefulThing -Repeatable` <sub>█</sub>
 
 </div>
