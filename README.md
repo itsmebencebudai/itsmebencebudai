@@ -1,7 +1,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/c4-workstation-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/c4-workstation-light.svg">
-  <img alt="Budai Bence — PowerShell workstation developer profile" src="./assets/c4-workstation-light.svg" width="100%">
+  <img alt="Budai Bence — animated developer workstation profile" src="./assets/c4-workstation-light.svg" width="100%">
 </picture>
 
 <div align="center">
@@ -14,7 +14,7 @@
 
 ---
 
-## `PS C:\Users\Bence> Get-Profile`
+## `Dev:\ > Get-Profile`
 
 I'm **Budai Bence**, a software developer based in **Budapest, Hungary**.
 
@@ -26,57 +26,84 @@ Currently studying at **Óbuda University — John von Neumann Faculty of Inform
 
 ---
 
-## `PS C:\Users\Bence> Get-Stack`
+## `Dev:\ > Get-Stack`
+
+<p align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" width="42" height="42" alt="C#" title="C#" />
+  &nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dotnetcore/dotnetcore-original.svg" width="42" height="42" alt=".NET" title=".NET" />
+  &nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/powershell/powershell-original.svg" width="42" height="42" alt="PowerShell" title="PowerShell" />
+  &nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/microsoftsqlserver/microsoftsqlserver-original.svg" width="42" height="42" alt="SQL Server" title="SQL Server" />
+  &nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/windows11/windows11-original.svg" width="42" height="42" alt="Windows" title="Windows" />
+  &nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" width="42" height="42" alt="Docker" title="Docker" />
+  &nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/githubactions/githubactions-original.svg" width="42" height="42" alt="GitHub Actions" title="GitHub Actions" />
+  &nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" width="42" height="42" alt="Git" title="Git" />
+  &nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/visualstudio/visualstudio-original.svg" width="42" height="42" alt="Visual Studio" title="Visual Studio" />
+  &nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" width="42" height="42" alt="VS Code" title="VS Code" />
+</p>
 
 ### Backend
 
-`C#` · `.NET` · `ASP.NET Core` · `REST APIs` · `Entity Framework Core`
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" width="20" alt="" /> `C#` · `.NET` · `ASP.NET Core` · `REST APIs` · `Entity Framework Core`
 
 ### Data
 
-`SQL Server` · `relational data` · `migrations` · `queries`
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/microsoftsqlserver/microsoftsqlserver-original.svg" width="20" alt="" /> `SQL Server` · `relational data` · `migrations` · `queries`
 
 ### Automation
 
-`PowerShell` · `GitHub Actions` · `repeatable scripting`
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/powershell/powershell-original.svg" width="20" alt="" /> `PowerShell` · `GitHub Actions` · `repeatable scripting`
 
 ### Infrastructure
 
-`Windows Server` · `IIS` · `Docker` · `Tailscale`
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/windows11/windows11-original.svg" width="20" alt="" /> `Windows Server` · `IIS` · `Docker` · `Tailscale`
 
 ### Web & development
 
-`HTML` · `CSS` · `JavaScript` · `Git` · `GitHub` · `Visual Studio` · `VS Code`
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" width="20" alt="" /> `HTML` · `CSS` · `JavaScript` · `Git` · `GitHub` · `Visual Studio` · `VS Code`
 
 ### Lab
 
-`self-hosting` · `local AI` · `coding agents` · `MCP` · `system integration`
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" width="20" alt="" /> `self-hosting` · `local AI` · `coding agents` · `MCP` · `system integration`
 
 ---
 
-## `PS C:\Users\Bence\Projects> Get-Projects`
+## `Dev:\ > Get-Projects`
 
-### ⚡ [CopyLast](https://github.com/itsmebencebudai/clast)
+### <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/powershell/powershell-original.svg" width="24" alt="PowerShell" /> [CopyLast](https://github.com/itsmebencebudai/clast)
 
 A small PowerShell utility that copies the previous command together with its visible output directly to the clipboard.
 
 Built for terminal-heavy development, troubleshooting, documentation, and AI-assisted workflows.
 
+![PowerShell](https://img.shields.io/badge/PowerShell-Developer_Tool-5391FE?logo=powershell&logoColor=white)
+![Status](https://img.shields.io/badge/status-stable-2ea043)
+![License](https://img.shields.io/badge/license-MIT-8b949e)
+
 ```text
 PROJECT     CopyLast
-TYPE        Developer Tool
 RUNTIME     PowerShell
 STATUS      Stable
 LICENSE     MIT
 ```
 
-### 🌐 [Developer Portfolio](https://itsmebencebudai.github.io/)
+### <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" width="24" alt="Web" /> [Developer Portfolio](https://itsmebencebudai.github.io/)
 
 My longer-form developer portfolio with selected projects, technologies, experiments, and background.
 
+![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-online-2ea043?logo=github)
+![HTML](https://img.shields.io/badge/HTML-CSS-JavaScript-f7df1e?logo=javascript&logoColor=black)
+
 ```text
 PROJECT     Developer Portfolio
-TYPE        Developer Site
 DEPLOYMENT  GitHub Pages
 STATUS      Online
 STACK       HTML / CSS / JavaScript
@@ -86,7 +113,7 @@ STACK       HTML / CSS / JavaScript
 
 ---
 
-## `PS C:\Users\Bence> Get-Process -Developer`
+## `Dev:\ > Get-Process -Developer`
 
 ```text
 PID   STATE     WORKLOAD
@@ -101,10 +128,10 @@ PID   STATE     WORKLOAD
 
 ---
 
-## `PS C:\Lab> tree /F`
+## `Dev:\ > tree /F`
 
 ```text
-C:\LAB
+Dev:\Lab
 |
 +---Infrastructure
 |   +---WindowsServer
@@ -127,37 +154,19 @@ The lab gives me a practical place to test more than application code: how softw
 
 ---
 
-## `PS C:\Users\Bence> Get-BuildPipeline`
+## `Dev:\ > Get-BuildPipeline`
 
-```text
-Design
-  |
-  v
-Build
-  |
-  v
-Validate
-  |
-  v
-Deploy
-  |
-  v
-Observe
-  |
-  v
-Automate
-  |
-  v
-Improve
-  |
-  +----> repeat
-```
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/c4-pipeline-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/c4-pipeline-light.svg">
+  <img alt="Animated developer build pipeline: design, build, validate, deploy, observe, automate, improve" src="./assets/c4-pipeline-light.svg" width="100%">
+</picture>
 
 **Build something useful. Make it repeatable. Document it. Improve the workflow around it.**
 
 ---
 
-## `PS C:\Users\Bence> Get-GitHubActivity`
+## `Dev:\ > Get-GitHubActivity`
 
 <details>
 <summary><code>Show contribution activity</code></summary>
@@ -176,6 +185,6 @@ Improve
 
 <div align="center">
 
-`PS C:\Users\Bence> Build-UsefulThing -Repeatable` <sub>█</sub>
+`Dev:\ > Build-UsefulThing -Repeatable` <sub>█</sub>
 
 </div>
