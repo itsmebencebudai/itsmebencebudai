@@ -1,73 +1,52 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/concept-a-terminal-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/concept-a-terminal-light.svg">
-  <img alt="BB.DEV terminal profile for Budai Bence" src="./assets/concept-a-terminal-light.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/c2-header-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/c2-header-light.svg">
+  <img alt="bencefetch terminal systems dashboard" src="./assets/c2-header-light.svg" width="100%">
 </picture>
 
 <div align="center">
 
-[portfolio](https://itsmebencebudai.github.io/) ·
-[projects](https://github.com/itsmebencebudai?tab=repositories) ·
-[copylast](https://github.com/itsmebencebudai/clast)
+[**portfolio**](https://itsmebencebudai.github.io/) ·
+[**projects**](https://github.com/itsmebencebudai?tab=repositories) ·
+[**copylast**](https://github.com/itsmebencebudai/clast)
 
 </div>
 
 ---
 
-## `$ cat about.txt`
+## `$ systemctl status bence-stack`
 
-```text
-name      Budai Bence
-location  Budapest, Hungary
-role      Software Developer
-focus     Backend Systems · Automation · Infrastructure
-
-I build software across the full path from application code
-to deployment, networking, automation, and developer tooling.
-```
-
-I primarily work with **C# / .NET and ASP.NET Core**, with **SQL Server** on the data side and **PowerShell, IIS, Docker, and Tailscale** around deployment and infrastructure.
-
-Outside application development, I run a homelab where I experiment with self-hosting, local AI, MCP integrations, networking, and workflow automation.
-
-Currently studying at **Óbuda University — John von Neumann Faculty of Informatics**.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/c2-systems-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/c2-systems-light.svg">
+  <img alt="Active developer stack targets" src="./assets/c2-systems-light.svg" width="100%">
+</picture>
 
 ---
 
-## `$ tree ./stack`
+## `$ cat /etc/profile.d/about.conf`
 
-```text
-stack/
-├── backend/
-│   ├── C#
-│   ├── .NET
-│   ├── ASP.NET Core
-│   ├── REST APIs
-│   └── Entity Framework Core
-│
-├── data/
-│   └── SQL Server
-│
-├── automation/
-│   ├── PowerShell
-│   └── GitHub Actions
-│
-├── infrastructure/
-│   ├── Windows Server
-│   ├── IIS
-│   ├── Docker
-│   └── Tailscale
-│
-└── lab/
-    ├── self-hosting
-    ├── local AI
-    ├── coding agents
-    └── MCP
+```ini
+NAME="Budai Bence"
+ROLE="Software Developer"
+LOCATION="Budapest, Hungary"
+FOCUS="Backend Systems / Automation / Infrastructure"
+STUDY="Óbuda University / John von Neumann Faculty of Informatics"
 ```
+
+I build software across the entire path from **application code and APIs** to **data, deployment, networking, automation, and developer tooling**.
+
+The part I enjoy most is connecting those layers so the system is easier to understand, deploy, operate, and improve.
 
 ---
 
-## `$ ls ./projects`
+## `$ ls -lah ~/projects`
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/c2-projects-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/c2-projects-light.svg">
+  <img alt="Project status listing" src="./assets/c2-projects-light.svg" width="100%">
+</picture>
 
 <table>
 <tr>
@@ -75,67 +54,95 @@ stack/
 
 ### ⚡ [clast](https://github.com/itsmebencebudai/clast)
 
+PowerShell utility that copies the previous command together with its visible output.
+
 ```text
-type     developer tool
+state    ONLINE
+type     developer-tool
 runtime  PowerShell
-status   public
 license  MIT
 ```
-
-Copies the previous PowerShell command and its visible output directly to the clipboard.
-
-Built for fast terminal-to-AI and terminal-to-document workflows.
-
-[open repository →](https://github.com/itsmebencebudai/clast)
 
 </td>
 <td width="50%" valign="top">
 
 ### 🌐 [portfolio](https://itsmebencebudai.github.io/)
 
+Longer-form developer portfolio with selected projects, technologies, and experiments.
+
 ```text
-type     developer site
-stack    HTML / CSS / JS
+state    ONLINE
+type     developer-site
 deploy   GitHub Pages
-status   public
+stack    HTML / CSS / JS
 ```
-
-Longer-form portfolio with projects, technologies, experiments, and background.
-
-[open portfolio →](https://itsmebencebudai.github.io/)
 
 </td>
 </tr>
 </table>
 
+---
+
+## `$ ps aux | grep current-focus`
+
 ```text
-note: a significant part of my current development work is still private
-      while projects are being built, validated, and prepared for release.
+PID   STATE     PROCESS
+101   RUNNING   aspnet-core-architecture
+102   RUNNING   backend-apis
+103   RUNNING   developer-automation
+104   RUNNING   deployment-systems
+201   LAB       local-ai
+202   LAB       mcp-and-agents
+301   NEXT      open-source-tooling
 ```
 
 ---
 
-## `$ ./system-map`
+## `$ cat ~/lab/README`
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/architecture-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/architecture-light.svg">
-  <img alt="Application to infrastructure system map" src="./assets/architecture-light.svg" width="100%">
-</picture>
+My homelab is where application development meets systems work.
+
+```text
+lab/
+├── self-hosted-services/
+├── windows-and-linux-infrastructure/
+├── docker-and-networking/
+├── local-llm-inference/
+├── coding-agents/
+├── mcp-integrations/
+└── powershell-automation/
+```
+
+It gives me a place to test ideas beyond the application itself: how software is hosted, connected, automated, monitored, and recovered.
 
 ---
 
-## `$ cat current-focus`
+## `$ ./build-process --show`
 
 ```text
-[active]  aspnet-core-architecture
-[active]  backend-apis
-[active]  developer-automation
-[active]  deployment-systems
-[lab]     local-ai
-[lab]     mcp-and-agents
-[next]    open-source-tooling
+design
+  │
+  ▼
+build
+  │
+  ▼
+validate
+  │
+  ▼
+deploy
+  │
+  ▼
+observe
+  │
+  ▼
+automate
+  │
+  ▼
+improve
+  └──────────────► repeat
 ```
+
+> Build something useful. Make it repeatable. Document it. Improve the workflow around it.
 
 ---
 
@@ -149,6 +156,7 @@ note: a significant part of my current development work is still private
 
 <details>
 <summary><code>$ github --contributions --animate</code></summary>
+
 <br>
 
 <picture>
@@ -161,18 +169,8 @@ note: a significant part of my current development work is still private
 
 ---
 
-## `$ philosophy --short`
-
-```text
-design → build → validate → deploy → observe → automate → improve
-```
-
-I like software that is understandable, deployable, observable, documented, and easier to work on the second time than it was the first.
-
----
-
 <div align="center">
 
-`bence@github:~$ build --useful --repeatable` █
+`bence@github:~$ build --useful --repeatable` <sub>█</sub>
 
 </div>
