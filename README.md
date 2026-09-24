@@ -3,51 +3,55 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.svg">
-  <img alt="Budai Bence — software developer building backend systems, automation, and infrastructure" src="./assets/hero-light.svg" width="100%">
+  <img alt="Budai Bence — software developer focused on backend systems, PowerShell automation, and infrastructure" src="./assets/hero-light.svg" width="100%">
 </picture>
 
-[**Portfolio**](https://itsmebencebudai.github.io/) · [**Projects**](https://github.com/itsmebencebudai?tab=repositories) · [**CopyLast**](https://github.com/itsmebencebudai/clast)
+[**Portfolio**](https://itsmebencebudai.github.io/) · [**All repositories**](https://github.com/itsmebencebudai?tab=repositories)
 
 </div>
 
-## I build software with the whole system in mind
+```powershell
+PS> Get-Content .\data\profile.json -Raw | ConvertFrom-Json |
+>> Format-List role,location
 
-Good backend work doesn’t stop at the endpoint. I care about the data, delivery path, and day-to-day operations around it. My main stack is **C# / .NET**, with **PowerShell** for the workflows around it.
+role     : Software Developer
+location : Budapest, Hungary
+```
 
-I’m studying Computer Science Engineering at **Óbuda University — John von Neumann Faculty of Informatics** in Budapest.
+I’m studying Computer Science Engineering (BProf) at **Óbuda University — John von Neumann Faculty of Informatics**. I like building across the whole path: application architecture, APIs and data, deployment, operations, and the automation that ties them together.
 
-## What I work on
+## Focus & stack
 
-| Backend | Automation | Infrastructure |
-| --- | --- | --- |
-| C# · .NET · ASP.NET Core | PowerShell · GitHub Actions | Windows Server · IIS |
-| REST APIs · EF Core · SQL Server | Deployment workflows · scripting | Docker · Tailscale |
+### Applications & data
+
+[![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white)](https://learn.microsoft.com/dotnet/csharp/) [![.NET](https://img.shields.io/badge/.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white)](https://dotnet.microsoft.com/) [![SQL Server](https://img.shields.io/badge/SQL%20Server-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white)](https://learn.microsoft.com/sql/sql-server/)
+
+ASP.NET Core · Entity Framework Core · REST APIs
+
+### Automation
+
+[![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white)](https://learn.microsoft.com/powershell/) [![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)](https://docs.github.com/actions)
+
+PowerShell tooling · repeatable delivery workflows
+
+### Windows & infrastructure
+
+[![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)](https://docs.docker.com/) [![Tailscale](https://img.shields.io/badge/Tailscale-242424?style=flat-square&logo=tailscale&logoColor=white)](https://tailscale.com/kb/)
+
+Windows Server · IIS · self-hosted systems
 
 ## Selected work
 
-<table>
-<tr>
-<td width="50%" valign="top">
+### [CopyLast](https://github.com/itsmebencebudai/clast)
 
-### CopyLast
+A PowerShell 7 utility that recovers the previous command and its visible output from the current session transcript. Preview it, copy it, or reset the transcript.
 
-A PowerShell utility that copies the previous command and its visible output. Handy when capturing terminal context for troubleshooting, documentation, or AI-assisted workflows.
+`PowerShell 7` · `Windows` · `MIT`
 
-[View the repository →](https://github.com/itsmebencebudai/clast)
+### [Developer portfolio](https://itsmebencebudai.github.io/)
 
-</td>
-<td width="50%" valign="top">
-
-### Developer portfolio
-
-A home for selected projects, experiments, and the ideas behind my work.
-
-[Visit the portfolio →](https://itsmebencebudai.github.io/)
-
-</td>
-</tr>
-</table>
+My personal site for selected projects, experiments, and technical background. Built with HTML, CSS, and JavaScript.
 
 ## In the lab
 
-I’m exploring self-hosted infrastructure, local AI, coding agents, and MCP integrations—mostly to find practical ways to make development and operations smoother.
+I explore self-hosted infrastructure, local AI, coding agents, and MCP integrations, looking for practical ways to improve development and operations workflows.
