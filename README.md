@@ -1,7 +1,7 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/c3-powershell-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/c3-powershell-light.svg">
-  <img alt="Budai Bence — Windows PowerShell developer profile" src="./assets/c3-powershell-light.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/c4-workstation-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/c4-workstation-light.svg">
+  <img alt="Budai Bence — PowerShell workstation developer profile" src="./assets/c4-workstation-light.svg" width="100%">
 </picture>
 
 <div align="center">
@@ -18,7 +18,7 @@
 
 I'm **Budai Bence**, a software developer based in **Budapest, Hungary**.
 
-My main stack is **C# / .NET and ASP.NET Core**, with a strong interest in the systems around the application: **SQL Server, PowerShell automation, Windows Server, IIS, Docker, networking, deployment, and developer tooling**.
+I build primarily with **C# / .NET and ASP.NET Core**, and I spend a lot of time on the systems around the application: **PowerShell automation, Windows Server, IIS, SQL Server, Docker, networking, deployment, and developer tooling**.
 
 I also maintain a homelab where I experiment with **self-hosting, local AI, coding agents, MCP integrations, and infrastructure automation**.
 
@@ -26,21 +26,35 @@ Currently studying at **Óbuda University — John von Neumann Faculty of Inform
 
 ---
 
-## `PS C:\Users\Bence> Get-Stack | Format-Table`
+## `PS C:\Users\Bence> Get-Stack`
 
-| Area | Technologies |
-| --- | --- |
-| **Backend** | C# · .NET · ASP.NET Core · REST APIs · Entity Framework Core |
-| **Data** | SQL Server · relational data · migrations · queries |
-| **Automation** | PowerShell · GitHub Actions · repeatable scripting |
-| **Infrastructure** | Windows Server · IIS · Docker · Tailscale |
-| **Web** | HTML · CSS · JavaScript |
-| **Development** | Git · GitHub · Visual Studio · VS Code |
-| **Lab** | self-hosting · local AI · coding agents · MCP · system integration |
+### Backend
+
+`C#` · `.NET` · `ASP.NET Core` · `REST APIs` · `Entity Framework Core`
+
+### Data
+
+`SQL Server` · `relational data` · `migrations` · `queries`
+
+### Automation
+
+`PowerShell` · `GitHub Actions` · `repeatable scripting`
+
+### Infrastructure
+
+`Windows Server` · `IIS` · `Docker` · `Tailscale`
+
+### Web & development
+
+`HTML` · `CSS` · `JavaScript` · `Git` · `GitHub` · `Visual Studio` · `VS Code`
+
+### Lab
+
+`self-hosting` · `local AI` · `coding agents` · `MCP` · `system integration`
 
 ---
 
-## `PS C:\Users\Bence\Projects> Get-ChildItem`
+## `PS C:\Users\Bence\Projects> Get-Projects`
 
 ### ⚡ [CopyLast](https://github.com/itsmebencebudai/clast)
 
@@ -48,91 +62,105 @@ A small PowerShell utility that copies the previous command together with its vi
 
 Built for terminal-heavy development, troubleshooting, documentation, and AI-assisted workflows.
 
-```powershell
-Name        : clast
-Type        : Developer Tool
-Runtime     : PowerShell
-Status      : Online
-License     : MIT
+```text
+PROJECT     CopyLast
+TYPE        Developer Tool
+RUNTIME     PowerShell
+STATUS      Stable
+LICENSE     MIT
 ```
 
 ### 🌐 [Developer Portfolio](https://itsmebencebudai.github.io/)
 
 My longer-form developer portfolio with selected projects, technologies, experiments, and background.
 
-```powershell
-Name        : Portfolio
-Type        : Developer Site
-Deployment  : GitHub Pages
-Status      : Online
-Stack       : HTML / CSS / JavaScript
+```text
+PROJECT     Developer Portfolio
+TYPE        Developer Site
+DEPLOYMENT  GitHub Pages
+STATUS      Online
+STACK       HTML / CSS / JavaScript
 ```
 
 > A significant amount of my current development work remains private while projects are being built, validated, and prepared for release.
 
 ---
 
-## `PS C:\Users\Bence> Get-CurrentFocus`
+## `PS C:\Users\Bence> Get-Process -Developer`
 
 ```text
-State      Focus
------      -----
-RUNNING    ASP.NET Core architecture
-RUNNING    Backend APIs
-RUNNING    Developer automation
-RUNNING    Deployment systems
-LAB        Local AI
-LAB        MCP and coding agents
-NEXT       Open-source tooling
+PID   STATE     WORKLOAD
+---   -----     -------------------------
+101   Running   ASP.NET Core architecture
+114   Running   Backend APIs
+121   Running   Developer automation
+208   Lab       Local AI
+214   Lab       MCP / coding agents
+301   Queued    Open-source tooling
 ```
 
 ---
 
-## `PS C:\Lab> Get-ChildItem -Directory`
+## `PS C:\Lab> tree /F`
 
 ```text
-C:\Lab
-├── SelfHostedServices
-├── WindowsInfrastructure
-├── Docker
-├── Networking
-├── LocalAI
-├── CodingAgents
-├── MCP
-└── PowerShellAutomation
+C:\LAB
+|
++---Infrastructure
+|   +---WindowsServer
+|   +---Docker
+|   \---Networking
+|
++---Automation
+|   +---PowerShell
+|   \---GitHubActions
+|
++---AI
+|   +---LocalLLM
+|   +---CodingAgents
+|   \---MCP
+|
+\---SelfHosting
 ```
 
 The lab gives me a practical place to test more than application code: how software is **deployed, connected, automated, observed, and recovered**.
 
 ---
 
-## `PS C:\Users\Bence> Get-BuildProcess`
+## `PS C:\Users\Bence> Get-BuildPipeline`
 
 ```text
 Design
-  ↓
+  |
+  v
 Build
-  ↓
+  |
+  v
 Validate
-  ↓
+  |
+  v
 Deploy
-  ↓
+  |
+  v
 Observe
-  ↓
+  |
+  v
 Automate
-  ↓
+  |
+  v
 Improve
-  ↺
+  |
+  +----> repeat
 ```
 
 **Build something useful. Make it repeatable. Document it. Improve the workflow around it.**
 
 ---
 
-## `PS C:\Users\Bence> Show-ContributionActivity`
+## `PS C:\Users\Bence> Get-GitHubActivity`
 
 <details>
-<summary><code>Show GitHub contribution activity</code></summary>
+<summary><code>Show contribution activity</code></summary>
 
 <br>
 
