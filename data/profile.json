@@ -1,0 +1,10 @@
+{
+  "name": "Budai Bence",
+  "username": "itsmebencebudai",
+  "location": "Budapest, Hungary",
+  "role": "Software Developer",
+  "tagline": "Backend Systems · Automation · Infrastructure",
+  "primaryStack": ["C#", ".NET", "ASP.NET Core", "SQL Server", "PowerShell"],
+  "infrastructure": ["Windows Server", "IIS", "Docker", "Tailscale"],
+  "lab": ["Self-hosting", "Local AI", "MCP", "Developer Tooling"]
+}
