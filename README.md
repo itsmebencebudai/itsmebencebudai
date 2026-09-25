@@ -1,57 +1,77 @@
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.svg">
-  <img alt="Budai Bence — Software Developer" src="./assets/hero-light.svg" width="100%">
-</picture>
+# Hi, I’m Bence 👋
 
-[**About**](#about) · [**Core stack**](#core-stack) · [**Featured work**](#featured-work) · [**Exploring**](#currently-exploring) · [**Portfolio**](https://itsmebencebudai.github.io/)
+### Software Developer building backend systems, automation, and infrastructure
+
+<img src="https://user-images.githubusercontent.com/74038190/219923809-b86dc415-a0c2-4a38-bc88-ad6cf06395a8.gif" width="520" alt="Animated technology stack">
+
+<br>
+
+<a href="https://itsmebencebudai.github.io/">
+  <img src="https://img.shields.io/badge/PORTFOLIO-0A66C2?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio">
+</a>
+<a href="https://github.com/itsmebencebudai?tab=repositories">
+  <img src="https://img.shields.io/badge/REPOSITORIES-181717?style=for-the-badge&logo=github&logoColor=white" alt="Repositories">
+</a>
+<a href="https://github.com/itsmebencebudai">
+  <img src="https://img.shields.io/badge/GITHUB-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub profile">
+</a>
 
 </div>
 
-## About
+## About me
 
-I’m **Budai Bence**, a software developer based in Budapest, focused on **backend systems, automation, and infrastructure**. I like working across the full software lifecycle: application architecture, APIs, data, deployment, operations, and the tooling that connects them.
+I’m a software developer from **Budapest, Hungary**, working mainly with **C# and .NET**. I enjoy building backend-heavy systems and then following them all the way into production: APIs, SQL Server, deployment, Windows infrastructure, PowerShell automation, and the tooling that makes the next change easier to ship.
 
-I’m also studying Computer Science Engineering (BProf) at **Óbuda University — John von Neumann Faculty of Informatics**.
+I’m most interested in the point where **application development meets operations**. That is why a lot of my work and side projects naturally drift toward automation, self-hosting, developer tooling, local AI, and MCP integrations.
+
+I’m also studying **Computer Science Engineering (BProf)** at **Óbuda University — John von Neumann Faculty of Informatics**.
+
+## Tech I work with
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=cs,dotnet,powershell,windows,docker,git,github,visualstudio,vscode,raspberrypi&perline=10" alt="Core technology stack">
+
+<br><br>
+
+<img src="https://img.shields.io/badge/ASP.NET_Core-512BD4?style=flat-square&logo=dotnet&logoColor=white" alt="ASP.NET Core">
+<img src="https://img.shields.io/badge/Entity_Framework_Core-512BD4?style=flat-square&logo=dotnet&logoColor=white" alt="Entity Framework Core">
+<img src="https://img.shields.io/badge/SQL_Server-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white" alt="SQL Server">
+<img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions">
+<img src="https://img.shields.io/badge/IIS-0078D4?style=flat-square&logo=microsoft&logoColor=white" alt="IIS">
+<img src="https://img.shields.io/badge/Tailscale-242424?style=flat-square&logo=tailscale&logoColor=white" alt="Tailscale">
+
+</div>
+
+### Where I spend most of my time
 
 <table>
 <tr>
-<td width="50%" valign="top">
+<td width="33%" valign="top">
 
-### What I build
+#### Backend systems
 
-**Backend applications**  
-C# · .NET · ASP.NET Core · REST APIs · Entity Framework Core
-
-**Data-backed systems**  
-SQL Server · application data · integration workflows
+Designing APIs and application services with **C# / .NET / ASP.NET Core**, backed by SQL Server and Entity Framework Core.
 
 </td>
-<td width="50%" valign="top">
+<td width="33%" valign="top">
 
-### How I work
+#### Automation & delivery
 
-**Automation first**  
-PowerShell · GitHub Actions · repeatable delivery workflows
+Using **PowerShell and GitHub Actions** to turn repetitive setup, deployment, validation, and maintenance work into repeatable workflows.
 
-**Beyond the app**  
-Windows Server · IIS · Docker · networking · self-hosting
+</td>
+<td width="33%" valign="top">
+
+#### Infrastructure
+
+Working with **Windows Server, IIS, Docker, networking, and self-hosted services** so the application and the environment around it work as one system.
 
 </td>
 </tr>
 </table>
-
-## Core stack
-
-| Applications & data | Automation & delivery | Infrastructure |
-| --- | --- | --- |
-| C# | PowerShell | Windows Server |
-| .NET | GitHub Actions | IIS |
-| ASP.NET Core | CI/CD workflows | Docker |
-| Entity Framework Core | scripting & tooling | Tailscale |
-| SQL Server | deployment automation | self-hosting |
 
 ## Featured work
 
@@ -61,7 +81,11 @@ Windows Server · IIS · Docker · networking · self-hosting
 
 ### CopyLast
 
-A PowerShell 7 utility for terminal-heavy workflows. It recovers the previous command and its visible output from the current session transcript, with preview, copy, and reset actions.
+<img align="right" src="https://skillicons.dev/icons?i=powershell" width="48" alt="PowerShell">
+
+A small PowerShell 7 utility built around a very specific annoyance: getting the **previous command together with the output you actually saw**.
+
+It reads the current session transcript and gives you a clean preview/copy/reset workflow, so sharing terminal context is fast instead of fiddly.
 
 **PowerShell 7 · Windows · MIT**
 
@@ -72,7 +96,11 @@ A PowerShell 7 utility for terminal-heavy workflows. It recovers the previous co
 
 ### Developer portfolio
 
-A longer-form portfolio for selected projects, technical background, experiments, and the systems I enjoy working with.
+<img align="right" src="https://skillicons.dev/icons?i=html,css,js" width="120" alt="Web technologies">
+
+My longer-form home for projects, technical background, experiments, and the things that do not fit cleanly into a GitHub profile README.
+
+It is where I can explain the work behind the repositories instead of reducing everything to a stack of badges.
 
 **HTML · CSS · JavaScript · GitHub Pages**
 
@@ -82,49 +110,40 @@ A longer-form portfolio for selected projects, technical background, experiments
 </tr>
 </table>
 
-## Currently exploring
+## What I’m exploring now
 
-<table>
-<tr>
-<td width="25%" valign="top">
+- **Local AI & coding models** — running useful development workflows locally instead of depending on cloud inference for everything.
+- **MCP & agent tooling** — giving coding agents better, safer access to real systems and developer workflows.
+- **Homelab infrastructure** — self-hosting, networking, remote access, and the operational side of keeping systems available.
+- **Developer experience** — small tools and automation that remove friction from everyday engineering work.
 
-### Local AI
-Local inference, coding models, and practical developer workflows.
+## What I care about when building
 
-</td>
-<td width="25%" valign="top">
+> I like software that is useful beyond the happy-path demo: understandable architecture, repeatable deployment, useful diagnostics, and less manual work the second time around.
 
-### Agents & MCP
-Tool integrations, agent workflows, and developer-facing automation.
+That usually means thinking about the API, database, infrastructure, automation, and operator experience together rather than treating deployment as something that happens after the code is finished.
 
-</td>
-<td width="25%" valign="top">
-
-### Homelab
-Self-hosted services, networking, remote access, and infrastructure experiments.
-
-</td>
-<td width="25%" valign="top">
-
-### Developer tooling
-Small tools and repeatable workflows that remove friction from development.
-
-</td>
-</tr>
-</table>
-
-## GitHub overview
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/live-stats-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/live-stats-light.svg">
-  <img alt="Live GitHub overview" src="./assets/live-stats-light.svg" width="100%">
-</picture>
+## GitHub activity
 
 <div align="center">
 
-[**Portfolio**](https://itsmebencebudai.github.io/) ·
-[**Repositories**](https://github.com/itsmebencebudai?tab=repositories) ·
-[**Profile source**](https://github.com/itsmebencebudai/itsmebencebudai)
+<img src="https://raw.githubusercontent.com/itsmebencebudai/itsmebencebudai/output/github-contribution-grid-snake-dark.svg" width="100%" alt="GitHub contribution activity animation">
+
+</div>
+
+## Elsewhere
+
+<div align="center">
+
+<a href="https://itsmebencebudai.github.io/">
+  <img src="https://img.shields.io/badge/Portfolio-Visit-0A66C2?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio">
+</a>
+<a href="https://github.com/itsmebencebudai?tab=repositories">
+  <img src="https://img.shields.io/badge/GitHub-Browse_projects-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub repositories">
+</a>
+
+<br><br>
+
+<sub>Building, automating, learning, repeating.</sub>
 
 </div>
