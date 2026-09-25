@@ -23,52 +23,42 @@ $totalStars = 0
 $totalForks = 0
 
 foreach ($repo in $repos) {
-    if ($null -ne $repo.stargazers_count) {
-        $totalStars += [int]$repo.stargazers_count
-    }
-
-    if ($null -ne $repo.forks_count) {
-        $totalForks += [int]$repo.forks_count
-    }
+    if ($null -ne $repo.stargazers_count) { $totalStars += [int]$repo.stargazers_count }
+    if ($null -ne $repo.forks_count) { $totalForks += [int]$repo.forks_count }
 }
 
 function New-StatsSvg {
-    param(
-        [Parameter(Mandatory)] [ValidateSet('dark','light')] [string]$Theme
-    )
+    param([Parameter(Mandatory)] [ValidateSet('dark','light')] [string]$Theme)
 
     if ($Theme -eq 'dark') {
-        $bg1 = '#0b1018'; $bg2 = '#131927'; $border = '#2b3548'
-        $title = '#f2f5fa'; $label = '#7f8da5'; $number = '#9db7ff'; $accent = '#a78bfa'
+        $outer = '#0b111a'; $panel = '#101923'; $top = '#162231'; $border = '#2d3b4c'
+        $text = '#dce6f2'; $muted = '#7f93a9'; $blue = '#8fc9ff'; $yellow = '#eabb52'
     }
     else {
-        $bg1 = '#f8fbff'; $bg2 = '#f5f2ff'; $border = '#cad5e6'
-        $title = '#172033'; $label = '#69768b'; $number = '#356fe3'; $accent = '#7650c7'
+        $outer = '#eef4fa'; $panel = '#ffffff'; $top = '#f5f8fc'; $border = '#cdd8e4'
+        $text = '#334155'; $muted = '#718399'; $blue = '#1765a5'; $yellow = '#d79a1f'
     }
 
     return @"
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="220" viewBox="0 0 1200 220" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="190" viewBox="0 0 1200 190" role="img" aria-labelledby="title desc">
 <title id="title">Live GitHub snapshot for $username</title>
 <desc id="desc">Public repository, follower, star, and fork counts for $username.</desc>
-<defs>
-  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="$bg1"/><stop offset="1" stop-color="$bg2"/></linearGradient>
-</defs>
-<rect width="1200" height="220" rx="24" fill="url(#bg)"/>
-<rect x="34" y="30" width="1132" height="160" rx="16" fill="none" stroke="$border"/>
-<g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">
-  <text x="64" y="66" font-size="13" fill="$label" letter-spacing="2">LIVE GITHUB SNAPSHOT // $username</text>
-
-  <text x="92" y="125" font-size="32" font-weight="700" fill="$number">$($user.public_repos)</text>
-  <text x="92" y="151" font-size="13" fill="$label">PUBLIC REPOS</text>
-
-  <text x="363" y="125" font-size="32" font-weight="700" fill="$number">$($user.followers)</text>
-  <text x="363" y="151" font-size="13" fill="$label">FOLLOWERS</text>
-
-  <text x="636" y="125" font-size="32" font-weight="700" fill="$accent">$totalStars</text>
-  <text x="636" y="151" font-size="13" fill="$label">PUBLIC STARS</text>
-
-  <text x="905" y="125" font-size="32" font-weight="700" fill="$accent">$totalForks</text>
-  <text x="905" y="151" font-size="13" fill="$label">PUBLIC FORKS</text>
+<rect width="1200" height="190" rx="20" fill="$outer"/>
+<rect x="24" y="18" width="1152" height="154" rx="15" fill="$panel" stroke="$border"/>
+<rect x="25" y="19" width="1150" height="38" rx="14" fill="$top"/>
+<path d="M25 57H1175" stroke="$border"/>
+<rect x="45" y="28" width="18" height="18" rx="4" fill="#1677c8"/>
+<text x="54" y="41" text-anchor="middle" font-family="Consolas,monospace" font-size="7.5" font-weight="700" fill="#fff">PS</text>
+<text x="76" y="42" font-family="Consolas,monospace" font-size="12" fill="$text">PS Dev:\&gt; Get-GitHubSnapshot</text>
+<g font-family="Consolas,ui-monospace,monospace">
+  <text x="82" y="103" font-size="28" font-weight="700" fill="$blue">$($user.public_repos)</text>
+  <text x="82" y="130" font-size="11" fill="$muted" letter-spacing="1.2">PUBLIC REPOS</text>
+  <text x="354" y="103" font-size="28" font-weight="700" fill="$blue">$($user.followers)</text>
+  <text x="354" y="130" font-size="11" fill="$muted" letter-spacing="1.2">FOLLOWERS</text>
+  <text x="626" y="103" font-size="28" font-weight="700" fill="$yellow">$totalStars</text>
+  <text x="626" y="130" font-size="11" fill="$muted" letter-spacing="1.2">PUBLIC STARS</text>
+  <text x="898" y="103" font-size="28" font-weight="700" fill="$yellow">$totalForks</text>
+  <text x="898" y="130" font-size="11" fill="$muted" letter-spacing="1.2">PUBLIC FORKS</text>
 </g>
 </svg>
 "@
