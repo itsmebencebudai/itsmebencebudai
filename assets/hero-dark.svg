@@ -1,34 +1,26 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
-<title id="title">BENCE.DEV developer command center</title>
-<desc id="desc">Windows Terminal and PowerShell inspired profile header for Budai Bence, software developer focused on backend systems, automation, and infrastructure.</desc>
-<rect width="1200" height="320" rx="24" fill="#0b111a"/>
-<rect x="24" y="20" width="1152" height="280" rx="18" fill="#101923" stroke="#2d3b4c"/>
-<rect x="25" y="21" width="1150" height="42" rx="17" fill="#162231"/>
-<path d="M25 63H1175" stroke="#2d3b4c"/>
-<rect x="47" y="31" width="21" height="21" rx="5" fill="#1677c8"/>
-<text x="57.5" y="45.5" text-anchor="middle" font-family="Consolas,monospace" font-size="8.5" font-weight="700" fill="#fff">PS</text>
-<text x="80" y="47" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="650" fill="#dce6f2">BENCE.DEV</text>
-<rect x="189" y="27" width="126" height="30" rx="7" fill="#202f40"/>
-<text x="205" y="47" font-family="Consolas,monospace" font-size="12" fill="#c8d5e3">PowerShell</text>
-<text x="335" y="47" font-family="Consolas,monospace" font-size="17" fill="#8093a9">+</text>
-<g font-family="Segoe UI,Arial,sans-serif" fill="#8093a9" font-size="15"><text x="1070" y="47">—</text><text x="1110" y="47">□</text><text x="1148" y="47">×</text></g>
-<g font-family="Consolas,ui-monospace,monospace">
-<text x="64" y="98" font-size="14" fill="#8fc9ff">PS Dev:\&gt;</text>
-<text x="143" y="98" font-size="14" fill="#cbd6e2">.\profile.ps1</text>
-<text x="64" y="139" font-size="12" fill="#73869b" letter-spacing="1.8">DEVELOPER COMMAND CENTER // PROFILE ONLINE</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+<title id="title">Budai Bence — Software Developer</title>
+<desc id="desc">Profile banner for Budai Bence, focused on backend systems, automation, and infrastructure.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0b1220"/><stop offset="1" stop-color="#111c2e"/></linearGradient>
+  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#68a9ff"/><stop offset="1" stop-color="#8b7cff"/></linearGradient>
+</defs>
+<rect width="1200" height="300" rx="24" fill="url(#bg)"/>
+<circle cx="1080" cy="38" r="150" fill="#1b2f4c" opacity=".32"/>
+<circle cx="1150" cy="280" r="190" fill="#30285b" opacity=".22"/>
+<rect x="46" y="42" width="5" height="204" rx="2.5" fill="url(#accent)"/>
+<g font-family="Segoe UI,Arial,sans-serif">
+  <text x="78" y="78" font-size="13" font-weight="700" fill="#86b9ff" letter-spacing="2.2">SOFTWARE DEVELOPER</text>
+  <text x="76" y="145" font-size="54" font-weight="760" fill="#f4f7fb" letter-spacing="-1.4">BUDAI BENCE</text>
+  <text x="78" y="184" font-size="19" fill="#aebed0">Backend systems · Automation · Infrastructure</text>
+  <text x="78" y="226" font-size="14" fill="#73869d">Budapest, Hungary  ·  C# / .NET  ·  PowerShell</text>
 </g>
 <g font-family="Segoe UI,Arial,sans-serif">
-<text x="62" y="197" font-size="49" font-weight="760" letter-spacing="-1.3" fill="#f2f6fb">BUDAI BENCE</text>
-<text x="64" y="228" font-size="15" font-weight="750" letter-spacing="1.8" fill="#78b7ff">SOFTWARE DEVELOPER</text>
-<text x="64" y="258" font-size="17" fill="#adbbca">Backend systems  /  Automation  /  Infrastructure</text>
-</g>
-<g transform="translate(885 98)">
-<rect width="226" height="150" rx="13" fill="#142131" stroke="#30445a"/>
-<text x="22" y="31" font-family="Consolas,monospace" font-size="11" fill="#7f93a9" letter-spacing="1.3">ENV://READY</text>
-<path d="M22 48H204" stroke="#2c4055"/>
-<text x="22" y="78" font-family="Consolas,monospace" font-size="13" fill="#8fc9ff">runtime</text><text x="104" y="78" font-family="Consolas,monospace" font-size="13" fill="#d4deea">.NET</text>
-<text x="22" y="103" font-family="Consolas,monospace" font-size="13" fill="#8fc9ff">shell</text><text x="104" y="103" font-family="Consolas,monospace" font-size="13" fill="#d4deea">PowerShell</text>
-<text x="22" y="128" font-family="Consolas,monospace" font-size="13" fill="#8fc9ff">platform</text><text x="104" y="128" font-family="Consolas,monospace" font-size="13" fill="#d4deea">Windows</text>
-<rect x="193" y="118" width="6" height="16" rx="1.5" fill="#eabb52"/>
+  <rect x="790" y="69" width="326" height="46" rx="12" fill="#15243a" stroke="#2a405e"/>
+  <rect x="790" y="127" width="326" height="46" rx="12" fill="#15243a" stroke="#2a405e"/>
+  <rect x="790" y="185" width="326" height="46" rx="12" fill="#15243a" stroke="#2a405e"/>
+  <circle cx="819" cy="92" r="5" fill="#68a9ff"/><text x="838" y="98" font-size="15" font-weight="650" fill="#dbe6f2">Backend systems</text>
+  <circle cx="819" cy="150" r="5" fill="#7da0ff"/><text x="838" y="156" font-size="15" font-weight="650" fill="#dbe6f2">Automation &amp; delivery</text>
+  <circle cx="819" cy="208" r="5" fill="#8b7cff"/><text x="838" y="214" font-size="15" font-weight="650" fill="#dbe6f2">Infrastructure &amp; tooling</text>
 </g>
 </svg>
