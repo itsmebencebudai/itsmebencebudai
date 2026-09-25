@@ -3,181 +3,128 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.svg">
-  <img alt="BENCE.DEV developer command center for Budai Bence" src="./assets/hero-light.svg" width="100%">
+  <img alt="Budai Bence — Software Developer" src="./assets/hero-light.svg" width="100%">
 </picture>
 
-[<kbd>PROFILE</kbd>](#ps-dev-get-developerprofile) &nbsp;
-[<kbd>CAPABILITIES</kbd>](#ps-dev-get-capabilities) &nbsp;
-[<kbd>PROJECTS</kbd>](#ps-dev-get-projects--featured) &nbsp;
-[<kbd>LAB</kbd>](#ps-dev-get-childitem-lab--depth-2) &nbsp;
-[<kbd>PORTFOLIO</kbd>](https://itsmebencebudai.github.io/)
+[**About**](#about) · [**Core stack**](#core-stack) · [**Featured work**](#featured-work) · [**Exploring**](#currently-exploring) · [**Portfolio**](https://itsmebencebudai.github.io/)
 
 </div>
 
-## `PS Dev:\> Get-DeveloperProfile`
+## About
 
-```text
-NAME       Budai Bence
-ROLE       Software Developer
-LOCATION   Budapest, Hungary
+I’m **Budai Bence**, a software developer based in Budapest, focused on **backend systems, automation, and infrastructure**. I like working across the full software lifecycle: application architecture, APIs, data, deployment, operations, and the tooling that connects them.
 
-FOCUS      Backend Systems
-           Developer Automation
-           Infrastructure
-
-RUNTIME    .NET / PowerShell / Windows
-STATUS     building_
-```
-
-I build software across the whole path from application architecture and APIs to data, deployment, infrastructure, and the automation that connects them.
+I’m also studying Computer Science Engineering (BProf) at **Óbuda University — John von Neumann Faculty of Informatics**.
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### PROFILE
+### What I build
 
-**Application development**  
-C# · .NET · ASP.NET Core · Entity Framework Core · REST APIs
+**Backend applications**  
+C# · .NET · ASP.NET Core · REST APIs · Entity Framework Core
 
-**Data**  
-SQL Server · relational application data
-
-**Engineering approach**  
-Build the application, understand the system around it, automate the repetitive parts.
+**Data-backed systems**  
+SQL Server · application data · integration workflows
 
 </td>
 <td width="50%" valign="top">
 
-### ENVIRONMENT
+### How I work
 
-```text
-Dev:\
-├── backend
-├── automation
-├── infrastructure
-└── lab
-```
+**Automation first**  
+PowerShell · GitHub Actions · repeatable delivery workflows
 
-**Platform**  
-Windows · Windows Server · IIS
-
-**Tooling**  
-PowerShell · GitHub Actions · Docker · Tailscale
+**Beyond the app**  
+Windows Server · IIS · Docker · networking · self-hosting
 
 </td>
 </tr>
 </table>
 
-## `PS Dev:\> Get-Capabilities`
+## Core stack
 
-| `APPLICATIONS` | `AUTOMATION` | `SYSTEMS` |
+| Applications & data | Automation & delivery | Infrastructure |
 | --- | --- | --- |
-| **C#** | **PowerShell** | **Windows Server** |
+| C# | PowerShell | Windows Server |
 | .NET | GitHub Actions | IIS |
-| ASP.NET Core | delivery workflows | Docker |
-| Entity Framework Core | repeatable scripting | Tailscale |
-| SQL Server | developer tooling | self-hosting |
+| ASP.NET Core | CI/CD workflows | Docker |
+| Entity Framework Core | scripting & tooling | Tailscale |
+| SQL Server | deployment automation | self-hosting |
 
-```text
-Dev:\
-│
-├── applications
-│   ├── api
-│   ├── services
-│   └── data
-│
-├── automation
-│   ├── powershell
-│   ├── actions
-│   └── deployment
-│
-├── infrastructure
-│   ├── windows
-│   ├── iis
-│   ├── containers
-│   └── networking
-│
-└── lab
-    ├── local-ai
-    ├── coding-agents
-    ├── mcp
-    └── self-hosting
-```
-
-## `PS Dev:\> Get-Projects -Featured`
+## Featured work
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### `01 // CopyLast`
+### CopyLast
 
-A PowerShell 7 utility for terminal-heavy workflows. Recover the previous command and its visible output from the current session transcript, preview it, copy it, or reset the transcript.
+A PowerShell 7 utility for terminal-heavy workflows. It recovers the previous command and its visible output from the current session transcript, with preview, copy, and reset actions.
 
-`PowerShell 7` · `Windows` · `MIT`
+**PowerShell 7 · Windows · MIT**
 
-[**OPEN REPOSITORY →**](https://github.com/itsmebencebudai/clast)
+[**View repository →**](https://github.com/itsmebencebudai/clast)
 
 </td>
 <td width="50%" valign="top">
 
-### `02 // Developer Portfolio`
+### Developer portfolio
 
-A longer-form view of selected projects, technical background, experiments, and the systems I like working with.
+A longer-form portfolio for selected projects, technical background, experiments, and the systems I enjoy working with.
 
-`HTML` · `CSS` · `JavaScript` · `GitHub Pages`
+**HTML · CSS · JavaScript · GitHub Pages**
 
-[**OPEN PORTFOLIO →**](https://itsmebencebudai.github.io/)
+[**Open portfolio →**](https://itsmebencebudai.github.io/)
 
 </td>
 </tr>
 </table>
 
-## `PS Dev:\> Get-ChildItem .\Lab -Depth 2`
+## Currently exploring
 
-```text
-LAB
-│
-├── local-ai
-│   ├── local-inference
-│   └── coding-agents
-│
-├── mcp
-│   ├── integrations
-│   └── developer-tooling
-│
-├── homelab
-│   ├── networking
-│   └── self-hosted-services
-│
-└── automation
-    ├── powershell
-    └── workflow-tooling
-```
+<table>
+<tr>
+<td width="25%" valign="top">
 
-The lab is where application development meets systems work: local AI, agent tooling, MCP integrations, self-hosted infrastructure, networking, and automation experiments.
+### Local AI
+Local inference, coding models, and practical developer workflows.
 
-## `PS Dev:\> Get-GitHubSnapshot`
+</td>
+<td width="25%" valign="top">
+
+### Agents & MCP
+Tool integrations, agent workflows, and developer-facing automation.
+
+</td>
+<td width="25%" valign="top">
+
+### Homelab
+Self-hosted services, networking, remote access, and infrastructure experiments.
+
+</td>
+<td width="25%" valign="top">
+
+### Developer tooling
+Small tools and repeatable workflows that remove friction from development.
+
+</td>
+</tr>
+</table>
+
+## GitHub overview
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/live-stats-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/live-stats-light.svg">
-  <img alt="Live GitHub snapshot generated by PowerShell" src="./assets/live-stats-light.svg" width="100%">
+  <img alt="Live GitHub overview" src="./assets/live-stats-light.svg" width="100%">
 </picture>
-
-The snapshot is generated from the GitHub API by a PowerShell workflow in this repository.
-
----
 
 <div align="center">
 
 [**Portfolio**](https://itsmebencebudai.github.io/) ·
 [**Repositories**](https://github.com/itsmebencebudai?tab=repositories) ·
 [**Profile source**](https://github.com/itsmebencebudai/itsmebencebudai)
-
-<br><br>
-
-<code>PS Dev:\&gt; _</code>
 
 </div>
