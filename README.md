@@ -3,55 +3,181 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.svg">
-  <img alt="Budai Bence — software developer focused on backend systems, PowerShell automation, and infrastructure" src="./assets/hero-light.svg" width="100%">
+  <img alt="BENCE.DEV developer command center for Budai Bence" src="./assets/hero-light.svg" width="100%">
 </picture>
 
-[**Portfolio**](https://itsmebencebudai.github.io/) · [**All repositories**](https://github.com/itsmebencebudai?tab=repositories)
+[<kbd>PROFILE</kbd>](#ps-dev-get-developerprofile) &nbsp;
+[<kbd>CAPABILITIES</kbd>](#ps-dev-get-capabilities) &nbsp;
+[<kbd>PROJECTS</kbd>](#ps-dev-get-projects--featured) &nbsp;
+[<kbd>LAB</kbd>](#ps-dev-get-childitem-lab--depth-2) &nbsp;
+[<kbd>PORTFOLIO</kbd>](https://itsmebencebudai.github.io/)
 
 </div>
 
-```powershell
-PS> Get-Content .\data\profile.json -Raw | ConvertFrom-Json |
->> Format-List role,location
+## `PS Dev:\> Get-DeveloperProfile`
 
-role     : Software Developer
-location : Budapest, Hungary
+```text
+NAME       Budai Bence
+ROLE       Software Developer
+LOCATION   Budapest, Hungary
+
+FOCUS      Backend Systems
+           Developer Automation
+           Infrastructure
+
+RUNTIME    .NET / PowerShell / Windows
+STATUS     building_
 ```
 
-I’m studying Computer Science Engineering (BProf) at **Óbuda University — John von Neumann Faculty of Informatics**. I like building across the whole path: application architecture, APIs and data, deployment, operations, and the automation that ties them together.
+I build software across the whole path from application architecture and APIs to data, deployment, infrastructure, and the automation that connects them.
 
-## Focus & stack
+<table>
+<tr>
+<td width="50%" valign="top">
 
-### Applications & data
+### PROFILE
 
-[![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white)](https://learn.microsoft.com/dotnet/csharp/) [![.NET](https://img.shields.io/badge/.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white)](https://dotnet.microsoft.com/) [![SQL Server](https://img.shields.io/badge/SQL%20Server-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white)](https://learn.microsoft.com/sql/sql-server/)
+**Application development**  
+C# · .NET · ASP.NET Core · Entity Framework Core · REST APIs
 
-ASP.NET Core · Entity Framework Core · REST APIs
+**Data**  
+SQL Server · relational application data
 
-### Automation
+**Engineering approach**  
+Build the application, understand the system around it, automate the repetitive parts.
 
-[![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white)](https://learn.microsoft.com/powershell/) [![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)](https://docs.github.com/actions)
+</td>
+<td width="50%" valign="top">
 
-PowerShell tooling · repeatable delivery workflows
+### ENVIRONMENT
 
-### Windows & infrastructure
+```text
+Dev:\
+├── backend
+├── automation
+├── infrastructure
+└── lab
+```
 
-[![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)](https://docs.docker.com/) [![Tailscale](https://img.shields.io/badge/Tailscale-242424?style=flat-square&logo=tailscale&logoColor=white)](https://tailscale.com/kb/)
+**Platform**  
+Windows · Windows Server · IIS
 
-Windows Server · IIS · self-hosted systems
+**Tooling**  
+PowerShell · GitHub Actions · Docker · Tailscale
 
-## Selected work
+</td>
+</tr>
+</table>
 
-### [CopyLast](https://github.com/itsmebencebudai/clast)
+## `PS Dev:\> Get-Capabilities`
 
-A PowerShell 7 utility that recovers the previous command and its visible output from the current session transcript. Preview it, copy it, or reset the transcript.
+| `APPLICATIONS` | `AUTOMATION` | `SYSTEMS` |
+| --- | --- | --- |
+| **C#** | **PowerShell** | **Windows Server** |
+| .NET | GitHub Actions | IIS |
+| ASP.NET Core | delivery workflows | Docker |
+| Entity Framework Core | repeatable scripting | Tailscale |
+| SQL Server | developer tooling | self-hosting |
+
+```text
+Dev:\
+│
+├── applications
+│   ├── api
+│   ├── services
+│   └── data
+│
+├── automation
+│   ├── powershell
+│   ├── actions
+│   └── deployment
+│
+├── infrastructure
+│   ├── windows
+│   ├── iis
+│   ├── containers
+│   └── networking
+│
+└── lab
+    ├── local-ai
+    ├── coding-agents
+    ├── mcp
+    └── self-hosting
+```
+
+## `PS Dev:\> Get-Projects -Featured`
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### `01 // CopyLast`
+
+A PowerShell 7 utility for terminal-heavy workflows. Recover the previous command and its visible output from the current session transcript, preview it, copy it, or reset the transcript.
 
 `PowerShell 7` · `Windows` · `MIT`
 
-### [Developer portfolio](https://itsmebencebudai.github.io/)
+[**OPEN REPOSITORY →**](https://github.com/itsmebencebudai/clast)
 
-My personal site for selected projects, experiments, and technical background. Built with HTML, CSS, and JavaScript.
+</td>
+<td width="50%" valign="top">
 
-## In the lab
+### `02 // Developer Portfolio`
 
-I explore self-hosted infrastructure, local AI, coding agents, and MCP integrations, looking for practical ways to improve development and operations workflows.
+A longer-form view of selected projects, technical background, experiments, and the systems I like working with.
+
+`HTML` · `CSS` · `JavaScript` · `GitHub Pages`
+
+[**OPEN PORTFOLIO →**](https://itsmebencebudai.github.io/)
+
+</td>
+</tr>
+</table>
+
+## `PS Dev:\> Get-ChildItem .\Lab -Depth 2`
+
+```text
+LAB
+│
+├── local-ai
+│   ├── local-inference
+│   └── coding-agents
+│
+├── mcp
+│   ├── integrations
+│   └── developer-tooling
+│
+├── homelab
+│   ├── networking
+│   └── self-hosted-services
+│
+└── automation
+    ├── powershell
+    └── workflow-tooling
+```
+
+The lab is where application development meets systems work: local AI, agent tooling, MCP integrations, self-hosted infrastructure, networking, and automation experiments.
+
+## `PS Dev:\> Get-GitHubSnapshot`
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/live-stats-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/live-stats-light.svg">
+  <img alt="Live GitHub snapshot generated by PowerShell" src="./assets/live-stats-light.svg" width="100%">
+</picture>
+
+The snapshot is generated from the GitHub API by a PowerShell workflow in this repository.
+
+---
+
+<div align="center">
+
+[**Portfolio**](https://itsmebencebudai.github.io/) ·
+[**Repositories**](https://github.com/itsmebencebudai?tab=repositories) ·
+[**Profile source**](https://github.com/itsmebencebudai/itsmebencebudai)
+
+<br><br>
+
+<code>PS Dev:\&gt; _</code>
+
+</div>
