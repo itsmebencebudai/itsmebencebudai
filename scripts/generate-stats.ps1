@@ -31,34 +31,31 @@ function New-StatsSvg {
     param([Parameter(Mandatory)] [ValidateSet('dark','light')] [string]$Theme)
 
     if ($Theme -eq 'dark') {
-        $outer = '#0b111a'; $panel = '#101923'; $top = '#162231'; $border = '#2d3b4c'
-        $text = '#dce6f2'; $muted = '#7f93a9'; $blue = '#8fc9ff'; $yellow = '#eabb52'
+        $bg = '#0e1623'; $panel = '#141f2e'; $border = '#2b3b50'
+        $title = '#f0f5fb'; $label = '#7f91a7'; $number = '#83b6ff'; $accent = '#9b8cff'
     }
     else {
-        $outer = '#eef4fa'; $panel = '#ffffff'; $top = '#f5f8fc'; $border = '#cdd8e4'
-        $text = '#334155'; $muted = '#718399'; $blue = '#1765a5'; $yellow = '#d79a1f'
+        $bg = '#f3f7fc'; $panel = '#ffffff'; $border = '#d4deea'
+        $title = '#1c2939'; $label = '#718197'; $number = '#2f78c8'; $accent = '#6657d8'
     }
 
     return @"
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="190" viewBox="0 0 1200 190" role="img" aria-labelledby="title desc">
-<title id="title">Live GitHub snapshot for $username</title>
+<title id="title">GitHub overview for $username</title>
 <desc id="desc">Public repository, follower, star, and fork counts for $username.</desc>
-<rect width="1200" height="190" rx="20" fill="$outer"/>
-<rect x="24" y="18" width="1152" height="154" rx="15" fill="$panel" stroke="$border"/>
-<rect x="25" y="19" width="1150" height="38" rx="14" fill="$top"/>
-<path d="M25 57H1175" stroke="$border"/>
-<rect x="45" y="28" width="18" height="18" rx="4" fill="#1677c8"/>
-<text x="54" y="41" text-anchor="middle" font-family="Consolas,monospace" font-size="7.5" font-weight="700" fill="#fff">PS</text>
-<text x="76" y="42" font-family="Consolas,monospace" font-size="12" fill="$text">PS Dev:\&gt; Get-GitHubSnapshot</text>
-<g font-family="Consolas,ui-monospace,monospace">
-  <text x="82" y="103" font-size="28" font-weight="700" fill="$blue">$($user.public_repos)</text>
-  <text x="82" y="130" font-size="11" fill="$muted" letter-spacing="1.2">PUBLIC REPOS</text>
-  <text x="354" y="103" font-size="28" font-weight="700" fill="$blue">$($user.followers)</text>
-  <text x="354" y="130" font-size="11" fill="$muted" letter-spacing="1.2">FOLLOWERS</text>
-  <text x="626" y="103" font-size="28" font-weight="700" fill="$yellow">$totalStars</text>
-  <text x="626" y="130" font-size="11" fill="$muted" letter-spacing="1.2">PUBLIC STARS</text>
-  <text x="898" y="103" font-size="28" font-weight="700" fill="$yellow">$totalForks</text>
-  <text x="898" y="130" font-size="11" fill="$muted" letter-spacing="1.2">PUBLIC FORKS</text>
+<rect width="1200" height="190" rx="20" fill="$bg"/>
+<rect x="24" y="20" width="1152" height="150" rx="16" fill="$panel" stroke="$border"/>
+<g font-family="Segoe UI,Arial,sans-serif">
+  <text x="54" y="55" font-size="13" font-weight="700" fill="$title" letter-spacing="1.8">GITHUB OVERVIEW</text>
+  <text x="54" y="78" font-size="11" fill="$label">Automatically refreshed from public GitHub data</text>
+  <text x="82" y="127" font-size="31" font-weight="740" fill="$number">$($user.public_repos)</text>
+  <text x="82" y="150" font-size="11" fill="$label" letter-spacing="1.1">PUBLIC REPOS</text>
+  <text x="352" y="127" font-size="31" font-weight="740" fill="$number">$($user.followers)</text>
+  <text x="352" y="150" font-size="11" fill="$label" letter-spacing="1.1">FOLLOWERS</text>
+  <text x="622" y="127" font-size="31" font-weight="740" fill="$accent">$totalStars</text>
+  <text x="622" y="150" font-size="11" fill="$label" letter-spacing="1.1">PUBLIC STARS</text>
+  <text x="892" y="127" font-size="31" font-weight="740" fill="$accent">$totalForks</text>
+  <text x="892" y="150" font-size="11" fill="$label" letter-spacing="1.1">PUBLIC FORKS</text>
 </g>
 </svg>
 "@
