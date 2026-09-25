@@ -123,13 +123,6 @@ It is where I can explain the work behind the repositories instead of reducing e
 
 That usually means thinking about the API, database, infrastructure, automation, and operator experience together rather than treating deployment as something that happens after the code is finished.
 
-## GitHub activity
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/itsmebencebudai/itsmebencebudai/output/github-contribution-grid-snake-dark.svg" width="100%" alt="GitHub contribution activity animation">
-
-</div>
 
 ## Elsewhere
 
