@@ -8,7 +8,8 @@ Use the tabs below to switch between full profile concepts. The live profile is 
 [**B · Premium**](./style-lab/B-PREMIUM.md) ·
 [**C · Homelab**](./style-lab/C-HOMELAB.md) ·
 [**D · Product**](./style-lab/D-PRODUCT.md) ·
-[**E · Experimental**](./style-lab/E-EXPERIMENTAL.md)
+[**E · Experimental**](./style-lab/E-EXPERIMENTAL.md) ·
+[**F · ASCII**](./style-lab/F-ASCII.md)
 
 </div>
 
@@ -19,6 +20,7 @@ Use the tabs below to switch between full profile concepts. The live profile is 
 | **C** | Homelab / neofetch / systems | infrastructure-heavy, personal, technical |
 | **D** | Product landing page | modern, confident, portfolio-first |
 | **E** | Experimental / animated | bold, cyber/dev-tooling, memorable |
+| **F** | Pure-text ASCII | figlet banner, box-drawn layout, no images |
 
 ### Review flow
 
